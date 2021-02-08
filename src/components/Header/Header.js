@@ -7,10 +7,10 @@ import Style from './Header.module.scss'
 export const Header = () => {
   return (
     <div className={Style.header}>
-      <div>
+      <div className={Style.item}>
       <Link to="/">VideoTube</Link>
       </div>
-      <div>
+      <div className={Style.item}>
         <form>
           <input type="text" placeholder="検索" />
           <button type="submit"><FontAwesomeIcon icon={faSearch} /></button>
